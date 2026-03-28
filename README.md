@@ -8,7 +8,7 @@ A reference integration between Teler and Elevenlabs in Node, based on [Media St
 1. **Clone and configure:**
 
    ```bash
-   git clone https://github.com/rupak-stack/teler-elevenlabs-node-bridge.git
+   git clone https://github.com/frejun-tech/teler-elevenlabs-node-bridge.git
    cd teler-elevenlabs-node-bridge
    cp .env.example .env
    # Edit .env with your actual values
@@ -24,7 +24,7 @@ A reference integration between Teler and Elevenlabs in Node, based on [Media St
 | Variable                   | Description                   | Default  |
 | -------------------------- | ----------------------------- | -------- |
 | `ELEVENLABS_WEBSOCKET_URL` | Your ELEVENLABS Websocket URL | Required |
-| `ELEVENLABS_SAMPLE_RATE`   | Audio sample rate             | 8k      |
+| `TELER_SAMPLE_RATE`   | Audio sample rate             | 8k      |
 | `TELER_API_KEY`            | Your Teler API key            | Required |
 | `NGROK_AUTHTOKEN`          | Your ngrok auth token         | Required |
 

@@ -35,7 +35,7 @@ callRouter.post('/flow', (_req: Request, res: Response) => {
     res.json({
         action:      'stream',
         ws_url:      getMediaStreamURL(),
-        sample_rate: config.elevenLabsSampleRate,
+        sample_rate: config.telerSampleRate,
         chunk_size:  500,
         record:      true,
     });

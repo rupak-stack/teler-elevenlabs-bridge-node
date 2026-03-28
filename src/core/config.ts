@@ -8,5 +8,5 @@ export const config = {
     serverDomain:           process.env.SERVER_DOMAIN || '',
     telerKey:               process.env.TELER_API_KEY || '',
     elevenLabsWsUrl:        process.env.ELEVENLABS_WS_URL || '',
-    elevenLabsSampleRate:   process.env.ELEVENLABS_SAMPLE_RATE || '8k',
+    telerSampleRate:        process.env.TELER_SAMPLE_RATE || '8k',
 } as const;
